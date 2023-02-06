@@ -8,6 +8,8 @@ import ReduxApp from "./components/App-redux";
 // import App from "./components/App";
 import reducer from './redux/reducers';
 import {logging} from "./redux/middlewares/logging";
+import App from "./components/App";
+import {BrowserRouter} from "react-router-dom";
 
 
 
@@ -45,6 +47,9 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
     <Provider store={store}>
-        <ReduxApp />
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+
     </Provider>
 );
