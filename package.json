@@ -26,6 +26,8 @@
     "react-router-dom": "^6.8.1",
     "redux": "^4.2.1",
     "style-loader": "^3.3.1",
+    "swagger-ui": "^4.15.5",
+    "swagger-ui-react": "^4.15.5",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   },

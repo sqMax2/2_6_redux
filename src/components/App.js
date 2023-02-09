@@ -1,6 +1,10 @@
 import * as React  from "react";
 import {Link, Route} from "react-router-dom";
 import {createRoutesFromElements, createBrowserRouter, RouterProvider} from "react-router-dom";
+
+import SwaggerUI from "swagger-ui-react"
+import "swagger-ui-react/swagger-ui.css"
+
 import "../styles/App.css";
 import Home from "./Home";
 import ReduxApp from "./App-redux";
@@ -44,6 +48,7 @@ function App() {
                     <Link to={'/users'}>Users</Link>
                     <Link to={'redux'}>Redux</Link>
                 </nav>
+                <SwaggerUI spec={'./swagger-config.yaml'}/>
                 <Routes>
 
 

@@ -1,0 +1,8 @@
+openapi: "3.0.0"
+info:
+  version: "0.0.1"
+  title: "React with Redux and Routing"
+  description: "My study project"
+  contact:
+    email: msvp@mail.ru
+servers: []
